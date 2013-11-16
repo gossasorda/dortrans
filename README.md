@@ -1,2 +1,5 @@
 dortrans
 ========
+
+# Установка
+```bower install```

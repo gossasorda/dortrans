@@ -3,22 +3,29 @@
 <head>
   <title></title>
   <meta charset="utf-8">
+
+  <script type="text/javascript">localStorage.clear();</script>
+  <link rel="stylesheet/less" href="bower_components/bootstrap/less/bootstrap.less">
+  <script>var less = {env: "development"};</script>
+  <script src="bower_components/less/dist/less-1.5.0.min.js"></script>
+
   <link rel="stylesheet" href="dortrans.css" type="text/css">
 </head>
 <body>
-  <header>
-    <div class="logo"></div>
-    <div class="menu">
+  <header id="header">
+    <a class="logo" href="http://dortrans21.ru"></a>
+    <div id="topmenu">
+      <div id="menu-lbox"></div>
       <nav>
-        <a href="http:/dortrans21.ru"></a>
-        <a href="http:/dortrans21.ru/company">О компании</a>
-        <a href="http:/dortrans21.ru/product">Продукция</a>
-        <a href="http:/dortrans21.ru/news">Новости</a>
-        <a href="http:/dortrans21.ru/services">Услуги</a>
-        <a href="http:/dortrans21.ru/documents">Документация</a>
-        <a href="http:/dortrans21.ru/contacts">Контакты</a>
+        <a href="http://dortrans21.ru"></a>
+        <a href="http://dortrans21.ru/company">О компании</a>
+        <a href="http://dortrans21.ru/product">Продукция</a>
+        <a href="http://dortrans21.ru/news">Новости</a>
+        <a href="http://dortrans21.ru/services">Услуги</a>
+        <a href="http://dortrans21.ru/documents">Документация</a>
+        <a href="http://dortrans21.ru/contacts">Контакты</a>
       </nav>
-      <div class="phones">/8352/ <b>37-59-72</b>, <b>23-03-77</b> (факс)</div>
     </div>
+    <div class="phones">/8352/ <strong>37-59-72</strong>, <strong>23-03-77</strong> <small>(факс)</small></div>
   </header>
 </body>

@@ -1,0 +1,21 @@
+body{
+  background: #d2d8d6;
+}
+#header{
+  display: block;
+  height: 497px;
+  width: 976px;
+  margin: 0 auto 24px auto;
+  background: #e8eceb;
+}
+#topmenu{
+  width: 976px;
+  height: 37px;
+  margin-top: 24px;
+}
+#menu-lbox{
+  width: 48px;
+  height: 37px;
+  background: #003980;
+
+}

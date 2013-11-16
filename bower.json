@@ -1,0 +1,8 @@
+{
+  "name": "dortrans",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": null,
+    "less": null
+  }
+}
