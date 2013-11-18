@@ -2,7 +2,7 @@
   "name": "dortrans",
   "version": "1.0.0",
   "dependencies": {
-    "bootstrap": null,
-    "less": null
+    "bootstrap": "3.0.2",
+    "less": "1.5.0"
   }
 }

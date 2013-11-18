@@ -1,21 +1,50 @@
 body{
+  font-family: Arial, sans-serif;
+  font-size: 13px;
   background: #d2d8d6;
 }
 #header{
   display: block;
   height: 497px;
   width: 976px;
+  padding-top: 24px;
   margin: 0 auto 24px auto;
   background: #e8eceb;
 }
-#topmenu{
-  width: 976px;
-  height: 37px;
-  margin-top: 24px;
-}
 #menu-lbox{
+  display: block;
   width: 48px;
   height: 37px;
   background: #003980;
-
+  float: left;
+}
+.logo{
+  display: inline-block;
+  margin-left: 74px;
+}
+#topmenu{
+  display: block;
+  width: 608px;
+  height: 37px;
+  margin: 0 0;
+  padding-left: 18px;
+  background: #003980;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  vertical-align: center;
+  line-height: 36px;
+  float: right;
+}
+#topmenu a{
+  margin-right: 18px;
+  color: white;
+}
+.top-line{
+  display: block;
+  position: absolute;
+  top: 377px;
+  height: 120px;
+  width: 100%;
+  background: #e8eceb;
 }
