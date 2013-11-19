@@ -3,16 +3,27 @@ body{
   font-size: 13px;
   background: #d2d8d6;
 }
+.top-line{
+  display: block;
+  position: absolute;
+  top: 377px;
+  left: 0;
+  height: 120px;
+  width: 100%;
+  background: #e8eceb;
+}
+#wrapper{
+  width: 976px;
+  margin: 0 auto;
+}
 #header{
   display: block;
   height: 497px;
-  width: 976px;
   padding-top: 24px;
   margin: 0 auto 24px auto;
   background: #e8eceb;
 }
 #menu-lbox{
-  display: block;
   width: 48px;
   height: 37px;
   background: #003980;
@@ -23,28 +34,51 @@ body{
   margin-left: 74px;
 }
 #topmenu{
-  display: block;
   width: 608px;
   height: 37px;
-  margin: 0 0;
-  padding-left: 18px;
+  margin: 0;
+  padding-right: 24px;
   background: #003980;
   color: white;
-  font-family: Arial, sans-serif;
   font-size: 14px;
-  vertical-align: center;
+  text-align: right;
+  vertical-align: middle;
   line-height: 36px;
   float: right;
 }
 #topmenu a{
-  margin-right: 18px;
-  color: white;
+  margin-left: 20px;
+  color: #fff;
 }
-.top-line{
+.menu-phones{
+  height: 48px;
+  width: 456px;
+  margin-top: -10px;
+  padding-right: 24px;
+  font-size: 30px;
+  text-align: right;
+  vertical-align: middle;
+  line-height: 48px;
+  color: #003980;
+  background: rgba(255, 255, 255, 0.5);
+  float: right;
+}
+.menu-phones small{
+  font-size: 18px;
+}
+#product-nav{
   display: block;
   position: absolute;
   top: 377px;
   height: 120px;
-  width: 100%;
-  background: #e8eceb;
+  width: 976px;
+  vertical-align: bottom;
+  background: #a7b2ac;
+}
+#product-nav a{
+  display: inline-block;
+  width: 136px;
+  height: 120px;
+  margin: 0;
+  background: #a7b2ac;
 }
