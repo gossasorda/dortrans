@@ -1,0 +1,8 @@
+@body-bg: #d2d8d6;
+
+@font-size-base: 13px;
+@font-family-sans-serif:  Arial, Tahoma, Helvetica, sans-serif;
+
+.bg(@file, @rep: no-repeat, @x: 0, @y: 0, @col: transparent, @baseurl: 'images/'){
+    background: url('@{baseurl}@{file}') @rep @x @y @col;
+}

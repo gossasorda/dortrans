@@ -1,15 +1,12 @@
-body{
-  font-family: Arial, sans-serif;
-  font-size: 13px;
-  background: #d2d8d6;
-}
+@import 'bower_components/bootstrap/less/bootstrap';
+@import 'override';
+
 .top-line{
   display: block;
   position: absolute;
   top: 377px;
   left: 0;
-  height: 120px;
-  width: 100%;
+  .size(100%,120px);
   background: #e8eceb;
 }
 #wrapper{
@@ -34,37 +31,34 @@ body{
   margin-left: 74px;
 }
 #topmenu{
-  width: 608px;
-  height: 37px;
+  float: right;
+  .size(608px,37px);
   margin: 0;
   padding-right: 24px;
   background: #003980;
   color: white;
   font-size: 14px;
   text-align: right;
-  vertical-align: middle;
   line-height: 36px;
-  float: right;
-}
-#topmenu a{
-  margin-left: 20px;
-  color: #fff;
+  a{
+    margin-left: 20px;
+    color: #fff;
+  }
 }
 .menu-phones{
+  float: right;
   height: 48px;
   width: 456px;
   margin-top: -10px;
   padding-right: 24px;
   font-size: 30px;
   text-align: right;
-  vertical-align: middle;
   line-height: 48px;
   color: #003980;
   background: rgba(255, 255, 255, 0.5);
-  float: right;
-}
-.menu-phones small{
-  font-size: 18px;
+  small{
+    font-size: 18px;
+  }
 }
 #product-nav{
   display: block;
@@ -72,13 +66,14 @@ body{
   top: 377px;
   height: 120px;
   width: 976px;
-  vertical-align: bottom;
   background: #a7b2ac;
-}
-#product-nav a{
-  display: inline-block;
-  width: 136px;
-  height: 120px;
-  margin: 0;
-  background: #a7b2ac;
+  a{
+    display: table-cell;
+    .size(136px,120px);
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+    background: #a7b2ac;
+  }
 }
