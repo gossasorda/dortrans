@@ -12,6 +12,7 @@
 #wrapper{
   width: 976px;
   margin: 0 auto;
+  background: #e8eceb;
 }
 #header{
   display: block;
@@ -21,10 +22,9 @@
   background: #e8eceb;
 }
 #menu-lbox{
-  width: 48px;
-  height: 37px;
-  background: #003980;
   float: left;
+  .size(48px,37px);
+  background: #003980;
 }
 .logo{
   display: inline-block;
@@ -47,8 +47,7 @@
 }
 .menu-phones{
   float: right;
-  height: 48px;
-  width: 456px;
+  .size(456px,48px);
   margin-top: -10px;
   padding-right: 24px;
   font-size: 30px;
@@ -64,16 +63,103 @@
   display: block;
   position: absolute;
   top: 377px;
-  height: 120px;
-  width: 976px;
+  padding: 0 5px;
+  .size(976px,120px);
   background: #a7b2ac;
   a{
     display: table-cell;
-    .size(136px,120px);
-    margin: 0;
+    .size(138px,120px);
+    padding-top: 80px;
     text-align: center;
     font-size: 11px;
     color: #000;
+    .bg('cat.jpg');
+  }
+  .prod1{
+    &:hover, &:active{
+      background-position: 0 -120px;
+    }
+  }
+  .prod2{
+    background-position: -130px 0;
+    &:hover, &:active{
+      background-position: -130px -120px;
+    }
+  }
+  .prod3{
+    background-position: -265px 0;
+    &:hover, &:active{
+      background-position: -265px -120px;
+    }
+  }
+  .prod4{
+    background-position: -412px 0;
+    &:hover, &:active{
+      background-position: -412px -120px;
+    }
+  }
+  .prod5{
+    background-position: -553px 0;
+    &:hover, &:active{
+      background-position: -553px -120px;
+    }
+  }
+  .prod6{
+    background-position: -695px 0;
+    &:hover, &:active{
+      background-position: -695px -120px;
+    }
+  }
+  .prod7{
+    background-position: -837px 0;
+    &:hover, &:active{
+      background-position: -837px -120px;
+    }
+  }
+}
+.sidebar{
+  //float: left;
+  width: 321px;
+  margin-right: 16px;
+  padding-left: 16px;
+}
+h2{
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+  font-size: 20px;
+  color: #003980;
+  >strong{
+    padding-right: 10px;
+    background: #e8eceb;
+  }
+  >span{
+    float: left;
+    .size(100%,11px);
+    margin-top: -15px;
     background: #a7b2ac;
+  }
+}
+.item{
+  margin-bottom: 16px;
+  a{
+    font-size: 15px;
+    text-decoration: underline;
+    color: #0068e6;
+    &:hover{
+      text-decoration: none;
+      color: #003980;
+    }
+  }
+  time{
+    font-size: 11px;
+    color: #a6b2ae;
+  }
+}
+.allnews{
+  float: right;
+  color: #0068e6;
+  &:hover{
+    color: #003980;
   }
 }
