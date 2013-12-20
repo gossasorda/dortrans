@@ -1,8 +1,29 @@
+@blue: #003980;
+@link-color: #0068e6;
 @body-bg: #d2d8d6;
+@dark-gray: #a7b2ac;
+@light-gray: #e8eceb;
 
 @font-size-base: 13px;
 @font-family-sans-serif:  Arial, Tahoma, Helvetica, sans-serif;
 
 .bg(@file, @rep: no-repeat, @x: 0, @y: 0, @col: transparent, @baseurl: 'images/'){
     background: url('@{baseurl}@{file}') @rep @x @y @col;
+}
+
+time{
+  font-size: 11px;
+  color: #a6b2ae;
+}
+
+.container{
+  padding: 0;
+}
+
+.btn{
+  .button-size(3px; 8px; @font-size-base; @line-height-base; 0);
+  background: @blue;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
 }
